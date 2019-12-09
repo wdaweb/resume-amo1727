@@ -1,0 +1,59 @@
+@charset "utf-8";
+#menu ol > li {
+    margin: 0.3em 0 0 0;
+    padding: 0.3em 0 0 0;
+    font-size: 0.6em;
+}
+.td_a_3{
+    width:4em;
+    float:left;
+    text-align: right;
+    line-height: 2.75em;
+}
+.td_b_3{
+    width:calc( 100% - 4em);
+    float:left;
+    line-height: 2.75em;
+}
+.td_a_5{
+    width:6em;
+    float:left;
+    text-align: right;
+    line-height: 2.75em;
+}
+.td_b_5{
+    width:calc( 100% - 6em);
+    float:left;
+    line-height: 2.75em;
+}
+.td_a_6{
+    width:7em;
+    float:left;
+    text-align: right;
+    line-height: 2.75em;
+}
+.td_b_6{
+    width:calc( 100% - 7em);
+    float:left;
+    line-height: 2.75em;
+}
+.td_a_8{
+    width:10em;
+    float:left;
+    text-align: right;
+    line-height: 2.75em;
+}
+.td_b_8{
+    width:calc( 100% - 10em);
+    float:left;
+    line-height: 2.75em;
+}
+.formEdit{
+    width: 100%;margin:0.5em;padding: 1.5em 1.5em 0.1em 1.5em;border-radius: 5px;border:1px solid #000000;background: azure;
+}
+.formAdd{
+    width: 100%;margin:0.5em;padding: 1.5em 1.5em 0.1em 1.5em;border-radius: 5px;border:1px dashed #080808;
+}
+.clear{
+    clear: both;
+}
