@@ -36,6 +36,10 @@ include './include/_resume.php';
 										<div class="td_b_6"><input type="text" name="pro_title" style="width:100%;" value=""  /></div>
 									</div>
 									<div class="col-12 col-12-xsmall">
+										<div class="td_a_6">網頁連結：</div>
+										<div class="td_b_6"><input type="text" name="pro_link" style="width:100%;" value=""  /></div>
+									</div>
+									<div class="col-12 col-12-xsmall">
 										<div class="td_a_6">簡單說明：</div>
 										<div class="td_b_6"><textarea name="pro_content" rows="10" style="width:100%;"></textarea></div>
 									</div>
@@ -87,6 +91,10 @@ include './include/_resume.php';
 									<div class="col-12 col-12-xsmall">
 										<div class="td_a_6">作品名稱：</div>
 										<div class="td_b_6"><input type="text" name="pro_title" style="width:100%;" value="<?php echo $v["pro_title"]?>"  /></div>
+									</div>
+									<div class="col-12 col-12-xsmall">
+										<div class="td_a_6">網頁連結：</div>
+										<div class="td_b_6"><input type="text" name="pro_link" style="width:100%;" value="<?php echo $v["pro_link"]?>"  /></div>
 									</div>
 									<div class="col-12 col-12-xsmall">
 										<div class="td_a_6">簡單說明：</div>

@@ -152,9 +152,9 @@ if ($nodata==0) {
       <div class="col-xs-12">
       <div class="row">
         <div class="col-xs-12">
-          <h1 style="color: rgb(27, 131, 223);"><b>自傳1</b><br></h1>
+          <h1 style="color: rgb(27, 131, 223);"><b>自傳</b><br></h1>
         </div>
-      </div>'. nl2br($row["info"]) . '
+      </div>'. $row["info"] . '
       </div>
       </div>';
     }
@@ -301,3 +301,6 @@ if ($nodata==0) {
   </div>
 </body>
 </html>
+<?php
+
+?>

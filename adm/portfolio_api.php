@@ -7,6 +7,7 @@ if (empty($_SESSION['userpk'])) {
 if (!empty($_POST["sub_portfolio"]) && !empty($_POST["rpk"])) {
   $resume_pk = fun_testinput($_POST["rpk"]);
   $pro_title=fun_testinput($_POST['pro_title']);
+  $pro_link=fun_testinput($_POST['pro_link']);
   $pro_content=fun_testinput($_POST['pro_content']);
 
   $pro_pk = "";
@@ -33,6 +34,11 @@ if (!empty($_POST["sub_portfolio"]) && !empty($_POST["rpk"])) {
   if (!empty($pro_content)) {
     if (strlen($pro_content) > 500) {
      $errmsg .= "『簡單說明』格式錯誤！ \\n";
+    }
+  }
+  if (!empty($pro_link)) {
+    if (strlen($pro_link) > 300) {
+     $errmsg .= "『網頁連結』格式錯誤！ \\n";
     }
   }
   if (empty($errmsg)) {
@@ -80,6 +86,7 @@ if (!empty($_POST["sub_portfolio"]) && !empty($_POST["rpk"])) {
     
     $editdata=[];
     $editdata['pro_title']=$pro_title; 
+    $editdata['pro_link']=$pro_link; 
     $editdata['pro_content']=$pro_content; 
     $editdata['user_pk']=$_SESSION['userpk']; 
     $editdata['resume_pk']=$resume_pk; 

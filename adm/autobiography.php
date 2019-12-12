@@ -29,6 +29,7 @@ if (!empty($resume_pk)) {
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="./css/style.css" />
+	<script src="https://cdn.ckeditor.com/4.13.1/basic/ckeditor.js"></script>
 </head>
 <body class="is-preload">
 	<section id="page-wrapper">
@@ -46,7 +47,12 @@ if (!empty($resume_pk)) {
 									<label for="datashow">前台顯示</label>
 								</div>
 								<div class="col-12 col-12-xsmall">
-									<textarea name="info" placeholder="※ 請確認自傳中未填寫到個人隱私資料，如：姓名、身分證字號、電話、地址等，以確保您的個人資料安全。" rows="20" style="width:100%;"><?php echo $a_info?></textarea>
+									<textarea name="info" placeholder="※ 請確認自傳中未填寫到個人隱私資料，如：姓名、身分證字號、電話、地址等，以確保您的個人資料安全。" rows="30" style="width:100%;height:400px"><?php echo $a_info?></textarea>
+									<script>
+										CKEDITOR.replace( 'info', {
+											customConfig: '/operation/resume/adm/js/ckeditor_config.js'
+										} );
+									</script>
 								</div> 
 								<div class="col-12 col-12-xsmall">
 									<input type="submit" name="submit" id="sub_autobiography" value=" 儲存 " />                       
