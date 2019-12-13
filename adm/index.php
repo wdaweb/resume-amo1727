@@ -34,11 +34,11 @@ if (!empty($_SESSION["userpk"])) {
 				<div class="clear"></div>
 				<h2>個人履歷系統</h2>
 				<label>
-					<input type="text" class="form-control" value="1727" id="acc" name="acc" />
+					<input type="text" class="form-control" value="" id="acc" name="acc" />
 					<span>請輸入帳號</span>
 				</label>
 				<label>
-					<input type="password" class="form-control" value="1727" id="pw" name="pw" />
+					<input type="password" class="form-control" value="" id="pw" name="pw" />
 					<span>請輸入密碼</span>
 				</label>
 				
