@@ -14,44 +14,50 @@
 ## 後台畫面
 1. 使用者登入頁(adm/index.php)
      * 輸入驗證碼
-     ![](https://i.imgur.com/SpIlGG0.jpg)
+
+![](https://i.imgur.com/SpIlGG0.jpg)
 
 2. 登入後首頁-履歷管理(adm/manage.php)
     * 履歷(增、刪、是否開啟)
-    ![](https://i.imgur.com/9vTdrTp.jpg)
+
+![](https://i.imgur.com/9vTdrTp.jpg)
 
 3. 基本資料(adm/basedata.php)
     * 修改資料
     * 可上傳個人相片
-    ![](https://i.imgur.com/YnP0NgA.jpg)
+
+![](https://i.imgur.com/YnP0NgA.jpg)
 
 4. 學經歷(adm/experience.php)
     * 學歷(增、修、刪、排序、是否顯示)
     * 經歷(增、修、刪、排序、是否顯示)
-    ![](https://i.imgur.com/zkjkcqh.jpg)
+
+![](https://i.imgur.com/zkjkcqh.jpg)
 
 5. 技能(adm/skills.php)
     * 增、修、刪、排序、是否顯示
-    ![](https://i.imgur.com/dbaVjpb.jpg)
+
+![](https://i.imgur.com/dbaVjpb.jpg)
 
 6. 簡述(adm/description.php)
     * 修改、是否顯示
-    ![](https://i.imgur.com/WaBAnL7.jpg)
+
+![](https://i.imgur.com/WaBAnL7.jpg)
 
 7. 自傳(adm/autobiography.php)
     * 修改、是否顯示
-    ![](https://i.imgur.com/FwUQbQF.jpg)
+
+![](https://i.imgur.com/FwUQbQF.jpg)
 
 8. 作品集(adm/portfolio.php)
     * 增、修、刪、排序、是否顯示
-    ![](https://i.imgur.com/pDQLEXS.jpg)
+
+![](https://i.imgur.com/pDQLEXS.jpg)
     
 9. 求職條件(adm/jobhunting.php)
     * 修改
-    ![](https://i.imgur.com/t4rq6mp.jpg)
 
-
-
+![](https://i.imgur.com/t4rq6mp.jpg)
 
 
 ## DB設計(dbresume)
